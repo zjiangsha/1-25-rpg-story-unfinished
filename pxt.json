@@ -1,0 +1,27 @@
+{
+    "name": "1-25-rpg-story-unfinished",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-block-objects": "github:microsoft/arcade-block-objects#f486ac1d4dcc096b9297174f97f8cdef1576c7ff",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.11.37",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
